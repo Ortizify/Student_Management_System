@@ -40,3 +40,10 @@ python main.py
 ## Author
 
 Luis Ortiz
+
+
+## Future Improvements
+
+- Add a feature to search students by name
+- Add a feature to update student grades
+- Add a feature to delete students
