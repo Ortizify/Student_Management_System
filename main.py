@@ -1,9 +1,9 @@
 import menu
-import actions
+import data
 
 def main():
     print("Welcome to the Student Management System!")
-    actions.import_students()
+    data.import_students()
     menu.show_menu()
 
 
