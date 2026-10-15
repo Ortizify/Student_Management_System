@@ -1,4 +1,5 @@
 import actions
+import data
 def show_menu():
     print("===== STUDENT MANAGEMENT SYSTEM =====")
     print("1. Add students")
@@ -27,10 +28,10 @@ def show_menu():
 
 
         elif choice == "5":
-            actions.export_students()
+            data.export_students()
 
         elif choice == "6":
-            actions.import_students()
+            data.import_students()
         
         elif choice == "7":
             print("Goodbye!")
